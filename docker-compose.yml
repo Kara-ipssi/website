@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+  mysql:
+    platform: linux/x86_64
+    image: mysql:5.7
+    container_name: website_mysql
+    restart: always
+    ports:
+      - 3311:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: website
+      MYSQL_USER: kara
+      MYSQL_PASSWORD: secret
+    volumes:
+      - ./mysql:/var/lib/mysql:delegated
+    networks:
+      - laravel
+    
+  phpMyAdmin:
+    # platform: linux/x86_64
+    depends_on:
+      - mysql
+    image: phpmyadmin
+    container_name: website_phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: kara
+      PMA_PASSWORD: secret
+      UPLOAD_LIMIT: 500M
+      MEMORY_LIMIT: 500M
+      MAX_EXECUTION_TIME: 300
+    networks:
+      - laravel
+
+  myapp:
+    image: docker.io/bitnami/laravel:9
+    ports:
+      - 8000:8000
+    container_name: website_myapp
+    environment:
+      DB_HOST: mysql
+      DB_USERNAME: kara
+      DB_DATABASE: website
+    volumes:
+      - './app:/app:delegated'
+    depends_on:
+      - mysql
+    networks:
+      - laravel
+
+networks: 
+  laravel:
