@@ -14,7 +14,7 @@
         <meta content="Mannatthemes" name="author" />
 
         {{-- on import le bootstrap.min.css --}}
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css" />
+        <link rel="stylesheet" href="{{ asset('demo/css/bootstrap.min.css') }}" type="text/css" />
         {{-- on import le style.css --}}
 
         <!-- Fonts -->
@@ -25,34 +25,37 @@
         @vite(['resources/js/app.js'])
 
         {{-- importations de selfown theme --}}
-        @vite(['ressources/selfown_assets/css/bootstrap.min.css', 'ressources/selfown_assets/style.min.css', 'ressources/selfown_assets/css/colors/default.css'])
+        {{-- @vite(['ressources/selfown_assets/css/bootstrap.min.css', 'ressources/selfown_assets/css/style.min.css', 'ressources/selfown_assets/css/colors/default.css']) --}}
+        <link rel="stylesheet" href="{{asset('demo/css/bootstrap.min.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{asset('demo/css/bootstrap.min.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{asset('demo/css/colors/default.css')}}" type="text/css">
 
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
-        <x-jet-banner />
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="80">
+        
+        <!-- start navbar -->
+        @livewire('navbar')
+        <!-- end navbar -->
 
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+        {{ $slot }}
 
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
+        <!-- Scripts -->
+        <script src="{{asset('demo/js/bootstrap.bundle.min.js')}}"></script>
 
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
-        </div>
+        <!-- feather icon -->
+        <script src="{{asset('demo/js/feather.js')}}"></script>
+        <script src="{{asset('demo/js/shuffle.min.js')}}"></script>
+        <script src="{{asset('demo/js/projects.init.js')}}"></script>
+        <script src="{{asset('demo/js/typed.js')}}"></script>
+        <script src="{{asset('demo/js/app.js')}}"></script>
+
+
+        {{-- Footer --}}
 
         @stack('modals')
-
+        <!-- Scripts -->
         @livewireScripts
     </body>
 </html>
