@@ -42,15 +42,9 @@
         {{ $slot }}
 
         <!-- Scripts -->
-        <script src="{{asset('demo/js/bootstrap.bundle.min.js')}}"></script>
-
-        <!-- feather icon -->
-        <script src="{{asset('demo/js/feather.js')}}"></script>
-        <script src="{{asset('demo/js/shuffle.min.js')}}"></script>
-        <script src="{{asset('demo/js/projects.init.js')}}"></script>
-        <script src="{{asset('demo/js/typed.js')}}"></script>
-        <script src="{{asset('demo/js/app.js')}}"></script>
-
+        @if(isset($scripts))
+            {{ $scripts }}
+        @endif
 
         {{-- Footer --}}
 
