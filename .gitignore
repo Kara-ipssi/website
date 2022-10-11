@@ -16,3 +16,4 @@ mysql
 ./app/yarn-error.log
 ./app/.idea
 ./app/.vscode
+./app/public/.DS_Store

@@ -1,0 +1,3 @@
+{
+    "prefix": "docker exec -it website_myapp" 
+}
