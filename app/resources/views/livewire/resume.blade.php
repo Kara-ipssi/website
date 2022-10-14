@@ -16,8 +16,8 @@
                         <div class="card rounded bg-light h-100 border-0">
                             <div class="card-body d-flex justify-content-center align-items-center">
                                 <div class="mx-auto text-center">
-                                    <img src="images/personal/school.png" alt="" class="vector-dark" height="150">
-                                    <img src="images/personal/school-light.png" alt="" class="vector-light" height="150">
+                                    <img src="/demo/images/personal/school.png" alt="" class="vector-dark" height="150">
+                                    <img src="/demo/images/personal/school-light.png" alt="" class="vector-light" height="150">
                                     <h5 class="text-dark fs-22 fw-medium my-2">Education</h5>     
                                 </div>                          
                             </div><!-- end card-body -->
@@ -89,8 +89,8 @@
                         <div class="card rounded bg-light h-100 border-0">
                             <div class="card-body d-flex justify-content-center align-items-center">
                                 <div class="mx-auto text-center">
-                                    <img src="images/personal/job.png" alt="" class="vector-dark" height="150">
-                                    <img src="images/personal/job-light.png" alt="" class="vector-light" height="150">
+                                    <img src="/demo/images/personal/job.png" alt="" class="vector-dark" height="150">
+                                    <img src="/demo/images/personal/job-light.png" alt="" class="vector-light" height="150">
                                     <h5 class="text-dark fs-22 fw-medium my-2">Experience</h5>     
                                 </div>                          
                             </div><!-- end card-body -->

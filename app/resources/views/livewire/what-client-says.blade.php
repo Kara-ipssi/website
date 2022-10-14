@@ -10,14 +10,14 @@
                                     <div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-wrap="true">                                            
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center active" data-bs-interval="4000">
-                                                <img src="images/logos/logo-1.svg" alt="" class="my-3" height="70">
+                                                <img src="/demo/images/logos/logo-1.svg" alt="" class="my-3" height="70">
                                                 <p class="font-secondary fs-22 fst-italic mb-4 px-4">                                                    
                                                     I feel confident imposing change on myself. 
                                                     It's a lot more fun progressing than looking back. 
                                                     That's why scelerisque pretium dolor, 
                                                     sit amet vehicula erat pelleque need throw curve balls.                                                    
                                                 </p>
-                                                <img src="images/users/user-3.jpg" alt="" class="thumb-lg rounded-circle d-block mx-auto">
+                                                <img src="/demo/images/users/user-3.jpg" alt="" class="thumb-lg rounded-circle d-block mx-auto">
                                                 <span class="text-uppercase text-muted fs-14 fw-medium">- John M. Sperry</span>
                                                 <ul class="list-inline mb-0 align-self-center">
                                                     <li class="list-inline-item"><i class="la la-star text-warning fs-16"></i></li>
@@ -28,14 +28,14 @@
                                                 </ul>
                                             </div>
                                             <div class="carousel-item text-center" data-bs-interval="4000">
-                                                <img src="images/logos/logo-3.svg" alt="" class="my-3" height="70">
+                                                <img src="/demo/images/logos/logo-3.svg" alt="" class="my-3" height="70">
                                                 <p class="font-secondary fs-22 fst-italic mb-4 px-4">                                                    
                                                     I feel confident imposing change on myself. 
                                                     It's a lot more fun progressing than looking back. 
                                                     That's why scelerisque pretium dolor, 
                                                     sit amet vehicula erat pelleque need throw curve balls.                                                    
                                                 </p>
-                                                <img src="images/users/user-5.jpg" alt="" class="thumb-lg rounded-circle d-block mx-auto">
+                                                <img src="/demo/images/users/user-5.jpg" alt="" class="thumb-lg rounded-circle d-block mx-auto">
                                                 <span class="text-uppercase text-muted fs-14 fw-medium">- Larry J. Akins</span>
                                                 <ul class="list-inline mb-0 align-self-center">
                                                     <li class="list-inline-item"><i class="la la-star text-warning fs-16"></i></li>

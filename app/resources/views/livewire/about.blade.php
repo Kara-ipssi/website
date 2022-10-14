@@ -46,7 +46,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/android.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/android.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Android</h6>
@@ -57,7 +57,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/Angular.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/Angular.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Angular</h6>
@@ -68,7 +68,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/bootstrap.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/bootstrap.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Bootstrap</h6>
@@ -79,7 +79,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/vue.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/vue.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Vue</h6>
@@ -90,7 +90,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/react.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/react.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">React</h6>
@@ -101,7 +101,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/mongodb.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/mongodb.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Mongodb</h6>
@@ -112,7 +112,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/laravel.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/laravel.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Laravel</h6>
@@ -123,7 +123,7 @@
                     <div class="mx-3 ms-sm-0 ms-sm-0 mb-3 card-bg rounded p-1 pe-3 p-md-3 pe-md-4 shadow-sm">
                         <div class="d-flex align-items-center">
                             <div class="thumb-md d-flex flex-wrap justify-content-center align-items-center">
-                                <img src="images/logos/nodejs-icon.svg" alt="" class="" height="34">
+                                <img src="/demo/images/logos/nodejs-icon.svg" alt="" class="" height="34">
                             </div>
                             <div class="ms-3">
                                 <h6 class="mb-0 fw-medium text-gray-700">Node.js</h6>

@@ -1,5 +1,5 @@
 mysql
-./DS_Store
+.DS_Store
 ./app/node_modules
 ./app/public/build
 ./app/public/hot
