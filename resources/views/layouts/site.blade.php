@@ -21,7 +21,7 @@
         <!-- Scripts -->
         {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
         {{-- Récupération du js uniquement --}}
-        @vite(['resources/js/app.js'])
+        {{-- @vite(['resources/js/app.js']) --}}
 
         {{-- importations de selfown theme --}}
         <link rel="stylesheet" href="{{asset('demo/css/bootstrap.min.css')}}" type="text/css">
