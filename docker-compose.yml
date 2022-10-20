@@ -46,6 +46,7 @@ services:
       DB_HOST: mysql
       DB_USERNAME: kara
       DB_DATABASE: website
+      DB_PASSWORD: secret
     volumes:
       - './app:/app:delegated'
     depends_on:
