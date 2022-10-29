@@ -2,26 +2,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 border-e-dashed">
-                <a href="layout-one-1.html">
+                <a href="/">
                     <img src="/demo/images/logo-sm.png" alt="" height="18" />
-                    <img src="/demo/images/logo-light.png" alt="" height="16" />
+                    <img src="logo-light.svg" alt="" height="30" />
                 </a>
-                <p class="my-4">In an ideal world this text wouldn’t exist, 
+                {{-- <p class="my-4">In an ideal world this text wouldn’t exist, 
                     a client would acknowledge the importance of having web 
                     copy before the design starts.
-                </p>
+                </p> --}}
                 <ul class="list-unstyled footer-social mb-0 mt-sm-0 mt-3">
-                    <li class="list-inline-item">
+                    {{-- <li class="list-inline-item">
                         <a href="#"> <i class="icon-xs" data-feather="facebook"></i> </a>
-                    </li>
-                    <li class="list-inline-item">
+                    </li> --}}
+                    {{-- <li class="list-inline-item">
                         <a href="#"> <i class="icon-xs" data-feather="twitter"></i> </a>
+                    </li> --}}
+                    <li class="list-inline-item">
+                        <a href="https://github.com/kara-ipssi" target="_blank"> <i class="icon-xs" data-feather="github"></i> </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#"> <i class="icon-xs" data-feather="github"></i> </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#"> <i class="icon-xs" data-feather="instagram"></i> </a>
+                        <a href="https://www.instagram.com/_karams_/" target="_blank"> <i class="icon-xs" data-feather="instagram"></i> </a>
                     </li>
                 </ul>
             </div><!-- end col -->

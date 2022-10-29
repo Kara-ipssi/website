@@ -20,7 +20,7 @@
         <!-- end services -->
 
         <!-- start resume -->
-            @livewire('resume')
+            {{-- @livewire('resume') --}}
         <!-- end resume -->
 
         <div class="position-relative"> 
@@ -30,10 +30,10 @@
         </div>
 
         <!--what client says -->
-            @livewire('what-client-says')
+            {{-- @livewire('what-client-says') --}}
         <!-- end what client says -->
 
-        <section class="section bg-light cta-pettern" id="cta">
+        {{-- <section class="section bg-light cta-pettern" id="cta">
             <div class="container">            
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -53,18 +53,18 @@
                     </div><!--end col--> 
                 </div><!--end row--> 
             </div><!--end container--> 
-        </section>
+        </section> --}}
 
         <!-- start projects -->
-            @livewire('projects')
+            {{-- @livewire('projects') --}}
         <!-- end projects -->
 
         <!-- our blogs -->
-            @livewire('blogs')
+            {{-- @livewire('blogs') --}}
         <!--end blogs-->
 
         <!-- start contact us -->
-            @livewire('contact-us')
+            {{-- @livewire('contact-us') --}}
         <!-- end contact us -->
 
         <div class="position-relative">
@@ -80,7 +80,7 @@
         <!-- end footer -->
 
         <!-- start footer alter -->
-        @livewire('footer-alt')
+        {{-- @livewire('footer-alt') --}}
         <!-- end footer alter -->
 
         <!-- Style switcher -->

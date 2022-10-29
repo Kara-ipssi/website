@@ -2,25 +2,23 @@
     <div class="container">
         <div class="row align-items-center">                
             <div class="col-lg-6 align-self-center">
-                <h5 class="fs-24 text-dark fw-medium"><mark>Informations personnelles</mark></h5>       
+                <h5 class="fs-24 text-dark fw-medium"><mark>A propos de moi</mark></h5>       
                 <h4 class="fw-normal lh-base text-gray-700 mb-4 fs-20">
                     {{-- It is a long established fact 
                     that a reader will be distracted by the readable content of a page when looking at its layout.  --}}
-                    Je suis un développeur fullstack, spécialisé dans le développement web.
+                    {{-- Je suis un développeur fullstack, spécialisé dans le développement web.
                     J'ai travaillé sur plusieurs projets, et j'ai pu acquérir une bonne expérience dans le développement web.
-                    Comme tout développeur digne de ce nom, j'ai aussi un grand bagage `side projects` qui attendent patiemment de sortir du placard.
+                    Comme tout développeur digne de ce nom, j'ai aussi un grand bagage `side projects` qui attendent patiemment de sortir du placard. --}}
+                    Je suis actuellement en formation de développeur web et web mobile à l'école IPSSI.
                 </h4>
                 <div class="social">
-                    <a href="#">
+                    <a href="https://github.com/kara-ipssi" target="_blank">
                         <i class="lab la-github github me-1"></i>
                     </a>
-                    <a href="#">
+                    {{-- <a href="#">
                         <i class="lab la-twitter twitter me-1"></i>
-                    </a>
-                    <a href="#">
-                        <i class="lab la-google google me-1"></i>
-                    </a>
-                    <a href="#">
+                    </a> --}}
+                    <a href="https://www.linkedin.com/in/karamoko-coulibaly" target="_blank">
                         <i class="lab la-linkedin-in linkedin me-1"></i>
                     </a>
                 </div>
