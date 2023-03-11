@@ -12,7 +12,7 @@
                     {{-- Je suis actuellement en formation de développeur web et mobile à l'école IPSSI (Master II). --}}
                     Je suis un développeur web et mobile en formation à l'école IPSSI. 
                     Je suis passionné par la création de sites web et d'applications mobiles esthétiques et fonctionnels. 
-                    Actuellement, j'acquiers une solide expérience dans différents langages de programmation et technologies de développement web pour offrir des solutions de qualité à mes clients. En dehors de la programmation, j'aime [activités personnelles ou centres d'intérêt].
+                    Actuellement, j'acquiers une solide expérience dans différents langages de programmation et technologies de développement web pour offrir des solutions de qualité à mes clients. En dehors de la programmation, j'aime lire des mangas et les jeux.
                 </h4>
                 <div class="social">
                     <a href="https://github.com/kara-ipssi" target="_blank">

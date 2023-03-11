@@ -10,11 +10,11 @@
                 <h5 class="d-inline-block py-1 px-3 rounded text-muted font-secondary">Hello, ici Karamoko!</h5>
                 <h1 class="hero-title mb-4 font-secondary fo">Développeur & Freelance <mark><span class="fw-medium typewrite" data-period="2000" data-type='["React", "Php", "Python", "NodeJS"]'></span></mark></h1>   
                 <span class="wrap"></span>                     
-                <div class="mb-5 mb-lg-0">                           
+                {{-- <div class="mb-5 mb-lg-0">                           
                     <div class="d-inline-block">
                         <a href="#" class="btn btn-secondary">Télécharger le CV</a>
                     </div>
-                </div>
+                </div> --}}
             </div><!--end col-->                  
         </div><!--end row-->             
     </div><!-- end container -->
