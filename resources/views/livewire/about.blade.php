@@ -9,7 +9,10 @@
                     {{-- Je suis un développeur fullstack, spécialisé dans le développement web.
                     J'ai travaillé sur plusieurs projets, et j'ai pu acquérir une bonne expérience dans le développement web.
                     Comme tout développeur digne de ce nom, j'ai aussi un grand bagage `side projects` qui attendent patiemment de sortir du placard. --}}
-                    Je suis actuellement en formation de développeur web et mobile à l'école IPSSI (Master II).
+                    {{-- Je suis actuellement en formation de développeur web et mobile à l'école IPSSI (Master II). --}}
+                    Je suis un développeur web et mobile en formation à l'école IPSSI. 
+                    Je suis passionné par la création de sites web et d'applications mobiles esthétiques et fonctionnels. 
+                    Actuellement, j'acquiers une solide expérience dans différents langages de programmation et technologies de développement web pour offrir des solutions de qualité à mes clients. En dehors de la programmation, j'aime [activités personnelles ou centres d'intérêt].
                 </h4>
                 <div class="social">
                     <a href="https://github.com/kara-ipssi" target="_blank">
@@ -39,7 +42,7 @@
                     </p>
                     <p class="mb-2">
                         <span class="personal-detail-title">Centre d'intérêt</span> 
-                        <span class="personal-detail-info">Musique, Mangas, MCU</span>
+                        <span class="personal-detail-info">Musique - Mangas - One piece</span>
                     </p>
                 </div>
             </div><!--end col-->
