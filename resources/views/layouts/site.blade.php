@@ -6,7 +6,13 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {{-- <meta name="description" content="Premium Bootstrap 5 demo" /> --}}
-        <meta name="description" content="Karamoko Coulibaly website" />
+        <meta name="description" content="
+            Optimisez votre présence en ligne grâce à nos services web tout-en-un. 
+            Nous offrons des services de référencement SEO pour améliorer votre positionnement sur les moteurs de recherche, 
+            ainsi que la création de sites web et d'applications mobiles sur mesure pour promouvoir votre entreprise. 
+            Nous proposons également un service d'hébergement de haute qualité pour garantir la disponibilité de votre site web en tout temps. 
+            Contactez-nous pour en savoir plus sur nos services web." 
+        />
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <meta
@@ -14,6 +20,7 @@
             {{-- content="bootstrap 5, premium, marketing, multipurpose"/> --}}
             content="developper, website, freelance, french developper, paris, france, back-end, front-end, full-stack"/>
         <meta content="Mannatthemes" name="author" />
+
         {{-- on import le style.css --}}
 
         <!-- Fonts -->
